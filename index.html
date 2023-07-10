@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Add react by CDN</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+    <script src="https://unpkg.com/react@16/umd/react.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js" crossorigin></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <div id="root2"></div>
+    
+    <div>
+        <p>Oh Heyyyyyy</p>
+        <span class="button" data-message-id="1"></span>
+    </div>
+
+    <div>
+        <p>Wazzzuuuupppp</p>
+        <span class="button" data-message-id="2"></span>
+    </div>
+
+    <div>
+        <p>Heyoooooo</p>
+        <span class="button" data-message-id="3"></span>
+    </div>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
