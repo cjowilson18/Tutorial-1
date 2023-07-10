@@ -1,4 +1,4 @@
-const element = React.createElement('h1', { className: 'title', onClick: () => { console.log('clicked'); } }, 'Sup Bitch.');
+const element = React.createElement('h1', { className: 'title', onClick: () => { console.log('clicked'); } }, 'Sup.');
 
 ReactDOM.render(element, document.getElementById('root'));
 
